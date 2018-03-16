@@ -1,0 +1,11 @@
+<%- include layouts/header.ejs %>
+
+        <div class="page-data">
+         <div class="data-table">
+			<h1><%= message %></h1>
+			<h2><%= error.status %></h2>
+			<pre><%= error.stack %></pre>
+         </div>
+        </div>
+        
+<%- include layouts/footer.ejs %>

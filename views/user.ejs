@@ -1,0 +1,23 @@
+<%- include layouts/header.ejs %>
+
+        <div class="page-data">
+            
+
+                <table cellpadding="11">
+                <tr>
+                    <td class="label" colspan=4>Welcome <%= user.nickname %></td>          
+                </tr>
+                <tr>
+                    <td class="label"><input type="button" id="check-session" value="Check Session"/></td>
+                    <td class="label"><input type="button" id="get-profile" value="Get Profile"/></td>
+                    <td class="label"><input type="button" id="get-contacts" value="List Contacts"/></td>
+                    <td class="label"><input type="button" id="get-appointments" value="List Appointments"/></td>
+
+                 </tr>
+
+                </table>
+
+            
+        </div>
+        
+<%- include layouts/footer.ejs %>

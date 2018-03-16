@@ -1,0 +1,15 @@
+<%- include layouts/header.ejs %>
+
+        <div class="page-data">
+         <div class="data-table">
+		    <%if (loggedIn) { %>
+		    		<div	>Hi, you're logged in</div>
+			<% } else { %>
+				<div>You are not logged in! Please [<a href="/clogin">Log In</a>] to continue.
+			<% } %>
+         </div>
+        </div>
+        
+<%- include layouts/footer.ejs %>
+
+</html>
